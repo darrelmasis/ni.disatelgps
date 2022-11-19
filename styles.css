@@ -1,0 +1,121 @@
+*,
+*:afer,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 62.5% "arial", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  height: 30.17px;
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.img-flag {
+  width: 16px;
+  height: 11px;
+}
+
+.img-logo {
+  width: 232px;
+  height: 35px;
+}
+
+.user-ip {
+  margin-right: 0.75rem;
+}
+
+.login-form {
+  font: bold 11px arial;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#username,
+#password {
+  margin-right: 0.75rem;
+}
+
+#submit {
+  padding: 0.4rem 1.25rem;
+  cursor: pointer;
+  color: #444;
+  font-size: 11px;
+  font-weight: bold;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+  line-height: normal;
+}
+
+h1 {
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.img-banner {
+  display: block;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  width: 500px;
+  padding: 2rem 1.5rem;
+  background: #fff3cd;
+  border: 1px solid #ffecb5;
+  color: #664d03;
+  left: 50%;
+  top: 30%;
+  border-radius: 0.75rem;
+  z-index: 2;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  transform-origin: center center;
+  transform: scale(0) translate(-50%, -50%);
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(2px);
+  display: none;
+}
+
+.modal span {
+  font-weight: bold;
+}
+
+.modal-p {
+  width: 80%;
+  margin: auto;
+}
+
+.title-modal {
+  margin: 0 0 3rem 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+.close-button:hover {
+  font-weight: bolder;
+}
